@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details{
+    margin: auto;
+    display: block;
+    width: 50%;
+    /* padding: 25px 5%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: 1.25rem;
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.header img{
+    width: 400px;
+}
+.header p{
+    font-size: 25px;
+    opacity: .5;
+}
+.pokeName{
+    text-transform: capitalize;
+    font-size: 45px;
+}
+.mainTypes{
+    border: 1px solid black;
+    padding-bottom: 20px;
+    border-radius: .5rem;
+}
+.types{
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+.type{
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: .70rem .60rem;
+    filter: brightness(1.10);
+}
+.moves{
+    border: 1px solid black;
+    border-radius: .5rem;
+    padding: 10px 5%;
+    font-size: 20px;
+}
+.status{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+.hp{
+    color: green;
+    filter: brightness(1.10);
+}
+.att{
+    color: rgb(184, 34, 34);
+    filter: brightness(1.80);
+}
+.def{
+    color: rgb(44, 44, 150);
+    filter: brightness(1.10);
+}
+.vel{
+    color: rgb(255, 255, 86);
+    filter: brightness(1.10);
+}
+
+
+
+.normal{
+    background-color: gray;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.fire{
+    background-color: orange;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.grass{
+    background-color: green;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.poison{
+    background-color: blueviolet;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.water{
+    background-color: rgb(63, 63, 236);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.bug{
+    background-color: rgb(57, 197, 57);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.flying{
+    background-color: rgb(173, 128, 136);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+
+}
+.sand{
+    background-color: rgb(175, 175, 19);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.electric{
+    background-color: rgb(190, 190, 0);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.fairy{
+    background-color: rgb(192, 144, 152);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.ground{
+    background-color: rgb(104, 94, 10);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.fighting{
+    background-color: rgb(124, 29, 29);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.psychic{
+    background-color: rgb(161, 67, 161);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.rock{
+    background-color: rgb(56, 18, 18);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.ghost{
+    background-color: #434b86;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.dragon{
+    background-color: skyblue;
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
+.ice{
+    background-color: rgb(49, 154, 196);
+    padding: 15px 7%;
+    border-radius: 1.25rem;
+}
